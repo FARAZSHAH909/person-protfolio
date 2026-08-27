@@ -3,18 +3,8 @@ const nextConfig = {
   output: 'export',
   distDir: 'out',
   /* config options here */
-  eslint: {
-    // we use biome for linting
-    ignoreDuringBuilds: true,
-  },
   images: {
     unoptimized: true,
-    domains: [
-      "source.unsplash.com",
-      "images.unsplash.com",
-      "ext.same-assets.com",
-      "ugc.same-assets.com",
-    ],
     remotePatterns: [
       {
         protocol: "https",
